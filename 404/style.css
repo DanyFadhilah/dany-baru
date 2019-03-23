@@ -1,0 +1,43 @@
+body{
+	font-family: arial;
+}
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.error{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../assets/image/error.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+#em{
+	font-size: 200px;
+	margin-left: 37%;
+	padding-top: 10%;
+	font-weight: 600;
+	color: #C9C9C9;
+ }
+
+#th{
+	color: white;
+	font-size: 20px;
+	margin-left: 34.5%;
+}
+
+button{
+	margin-left: 42.5%;
+	margin-top: 50px;
+	width: 200px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 2px;
+	color: white;
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+	cursor: pointer;
+}
+
+button:hover{
+	background: linear-gradient(rgba(0,0,0,2),rgba(0,0,0,2));
+}
